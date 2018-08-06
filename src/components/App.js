@@ -17,9 +17,23 @@ const Main = (props) => (
 
 const Menu = () => (
   <div className='menu'>
-    
-
      
+
+  </div>
+)
+
+const Keyboard = () => (
+  <div className='keyboard-section'>
+    <div className="keyboard">
+      <div className="number"></div>
+      <div className="qertyuiop">qertyuiop
+        
+      </div>
+      <div className="asdfghjkl">asdfghjkl</div>
+      <div className="zxcvbnm-delete">zxcvbnm</div>
+      <div className="space">space</div>
+      
+    </div>
 
   </div>
 )
@@ -48,6 +62,8 @@ class HangmanApp extends Component {
 
         <Menu />
         <Main />
+        <Keyboard />
+
 
       </div>
     )
